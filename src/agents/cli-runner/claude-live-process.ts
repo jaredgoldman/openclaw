@@ -14,6 +14,10 @@ import type {
 import { resolveExecDefaults } from "../exec-defaults.js";
 import { FailoverError, resolveFailoverStatus } from "../failover-error.js";
 import { prepareCliBundleMcpCaptureAttempt } from "./bundle-mcp.js";
+import {
+  buildNativeQuestionRelay,
+  shouldRelayNativeQuestion,
+} from "./claude-live-native-questions.js";
 import { LIVE_SESSION_LIMITS, resolveClaudeLiveMode } from "./claude-live-session-policy.js";
 import {
   requestClaudeNativeToolApproval,
@@ -227,6 +231,23 @@ function acceptControlRequest(
   const toolUseId = typeof request.tool_use_id === "string" ? request.tool_use_id : undefined;
   const toolName = typeof request.tool_name === "string" ? request.tool_name.trim() : "";
   const toolInput = isRecord(request.input) ? request.input : {};
+  // Interactive prompt tools can't be answered in a live session, so intercept
+  // them ahead of the exec policy: under an allow/bypass plan Claude would
+  // otherwise self-answer the question as unanswered and lose it entirely.
+  if (turn.backend.relayNativeQuestions !== false && shouldRelayNativeQuestion(toolName)) {
+    const relayMessage = buildNativeQuestionRelay(toolName, toolInput);
+    if (relayMessage) {
+      markControlToolDenied({ turn, toolUseId, toolName, toolInput });
+      writeToolControlResponse({
+        session,
+        requestId,
+        toolUseId,
+        toolInput,
+        decision: { behavior: "deny", message: relayMessage },
+      });
+      return;
+    }
+  }
   const plan = resolveClaudeNativeToolApprovalPlan(turn.execPermission);
   if (
     plan === "allow" ||

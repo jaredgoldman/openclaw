@@ -16,6 +16,13 @@ export type CliBackendConfig = {
   jsonlDialect?: "claude-stream-json" | "gemini-stream-json";
   /** Long-lived CLI process mode. */
   liveSession?: "claude-stdio";
+  /**
+   * Relay Claude's interactive prompt tools (AskUserQuestion, ExitPlanMode) to
+   * the user as plain text instead of allowing them (which self-answers as
+   * unanswered in a live session). Default on; set false to fall back to the
+   * exec-policy allow/deny behavior.
+   */
+  relayNativeQuestions?: boolean;
   /** Prompt input mode (default: arg). */
   input?: "arg" | "stdin";
   /** Max prompt length for arg mode (if exceeded, stdin is used). */
