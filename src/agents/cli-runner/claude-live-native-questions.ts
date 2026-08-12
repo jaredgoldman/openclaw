@@ -63,9 +63,7 @@ function renderQuestion(question: unknown, index: number, total: number): string
   }
   const heading = total > 1 ? `Question ${index + 1}: ${prompt}` : `Question: ${prompt}`;
   const lines = [heading];
-  const rawOptions = Array.isArray(question.options)
-    ? question.options.slice(0, MAX_OPTIONS)
-    : [];
+  const rawOptions = Array.isArray(question.options) ? question.options.slice(0, MAX_OPTIONS) : [];
   const options = rawOptions
     .map((option, optionIndex) => renderOption(option, optionIndex + 1))
     .filter((line): line is string => line !== null);
