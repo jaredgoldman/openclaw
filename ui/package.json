@@ -51,6 +51,6 @@
     "openclaw": "workspace:*",
     "playwright": "1.62.0",
     "vite": "8.1.5",
-    "vitest": "4.1.10"
+    "vitest": "4.1.11"
   }
 }
