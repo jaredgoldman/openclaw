@@ -48,10 +48,10 @@ importers:
     dependencies:
       '@agentclientprotocol/sdk':
         specifier: 1.3.0
-        version: 1.3.0(zod@4.4.3)
+        version: 1.3.0(zod@4.6.6)
       '@anthropic-ai/sdk':
         specifier: 0.115.0
-        version: 0.115.0(zod@4.4.3)
+        version: 0.115.0(zod@4.6.6)
       '@clack/core':
         specifier: 1.4.3
         version: 1.4.3
@@ -63,7 +63,7 @@ importers:
         version: 0.82.1
       '@google/genai':
         specifier: 2.13.0
-        version: 2.13.0(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))(supports-color@10.2.2)
+        version: 2.13.0(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))(supports-color@10.2.2)
       '@grammyjs/runner':
         specifier: 2.0.3
         version: 2.0.3(grammy@1.45.1(supports-color@10.2.2))
@@ -81,7 +81,7 @@ importers:
         version: 2.5.0(@opentelemetry/api@1.9.1)
       '@modelcontextprotocol/sdk':
         specifier: 1.30.0
-        version: 1.30.0(supports-color@10.2.2)(zod@4.4.3)
+        version: 1.30.0(supports-color@10.2.2)(zod@4.6.6)
       '@mozilla/readability':
         specifier: 0.6.0
         version: 0.6.0
@@ -177,7 +177,7 @@ importers:
         version: 1.2.10(supports-color@10.2.2)
       openai:
         specifier: 6.49.0
-        version: 6.49.0(@aws-sdk/credential-provider-node@3.972.72)(@smithy/hash-node@4.4.14)(@smithy/signature-v4@5.6.10)(ws@8.21.1)(zod@4.4.3)
+        version: 6.49.0(@aws-sdk/credential-provider-node@3.972.72)(@smithy/hash-node@4.4.14)(@smithy/signature-v4@5.6.10)(ws@8.21.1)(zod@4.6.6)
       p-limit:
         specifier: 7.3.1
         version: 7.3.1
@@ -236,8 +236,8 @@ importers:
         specifier: 2.9.0
         version: 2.9.0
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@a2ui/lit':
         specifier: 0.10.2
@@ -392,7 +392,7 @@ importers:
     dependencies:
       '@agentclientprotocol/claude-agent-acp':
         specifier: 0.62.0
-        version: 0.62.0(@anthropic-ai/sdk@0.115.0(zod@4.4.3))(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))
+        version: 0.62.0(@anthropic-ai/sdk@0.115.0(zod@4.6.6))(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))
       '@agentclientprotocol/codex-acp':
         specifier: 1.1.7
         version: 1.1.7
@@ -403,8 +403,8 @@ importers:
         specifier: 1.7.1
         version: 1.7.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -451,7 +451,7 @@ importers:
     dependencies:
       '@anthropic-ai/sdk':
         specifier: 0.115.0
-        version: 0.115.0(zod@4.4.3)
+        version: 0.115.0(zod@4.6.6)
       '@aws/bedrock-token-generator':
         specifier: 1.1.0
         version: 1.1.0
@@ -470,7 +470,7 @@ importers:
     dependencies:
       '@anthropic-ai/vertex-sdk':
         specifier: 0.19.0
-        version: 0.19.0(supports-color@10.2.2)(zod@4.4.3)
+        version: 0.19.0(supports-color@10.2.2)(zod@4.6.6)
       google-auth-library:
         specifier: 10.9.1
         version: 10.9.1(supports-color@10.2.2)
@@ -526,7 +526,7 @@ importers:
     dependencies:
       '@modelcontextprotocol/sdk':
         specifier: 1.30.0
-        version: 1.30.0(supports-color@10.2.2)(zod@4.4.3)
+        version: 1.30.0(supports-color@10.2.2)(zod@4.6.6)
       express:
         specifier: 5.2.1
         version: 5.2.1(supports-color@10.2.2)
@@ -553,8 +553,8 @@ importers:
         specifier: 2.24.1
         version: 2.24.1(typescript@7.0.2)
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -618,8 +618,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -649,8 +649,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -699,8 +699,8 @@ importers:
         specifier: 0.3.1
         version: 0.3.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -794,8 +794,8 @@ importers:
         specifier: 1.3.6
         version: 1.3.6
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -837,8 +837,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -905,8 +905,8 @@ importers:
         specifier: 1.3.6
         version: 1.3.6
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -970,7 +970,7 @@ importers:
     dependencies:
       '@google/genai':
         specifier: 2.13.0
-        version: 2.13.0(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))(supports-color@10.2.2)
+        version: 2.13.0(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))(supports-color@10.2.2)
       dotenv:
         specifier: 17.4.2
         version: 17.4.2
@@ -1007,8 +1007,8 @@ importers:
         specifier: 10.9.1
         version: 10.9.1(supports-color@10.2.2)
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1047,8 +1047,8 @@ importers:
         specifier: 1.3.6
         version: 1.3.6
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1066,8 +1066,8 @@ importers:
   extensions/irc:
     dependencies:
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1091,8 +1091,8 @@ importers:
         specifier: 11.2.0
         version: 11.2.0
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1104,8 +1104,8 @@ importers:
   extensions/linux-canvas:
     dependencies:
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1114,8 +1114,8 @@ importers:
   extensions/linux-node:
     dependencies:
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1201,8 +1201,8 @@ importers:
         specifier: 1.3.6
         version: 1.3.6
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1217,8 +1217,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1265,7 +1265,7 @@ importers:
         version: 18.1.0
       openai:
         specifier: 6.49.0
-        version: 6.49.0(@aws-sdk/credential-provider-node@3.972.72)(@smithy/hash-node@4.4.14)(@smithy/signature-v4@5.6.10)(ws@8.21.1)(zod@4.4.3)
+        version: 6.49.0(@aws-sdk/credential-provider-node@3.972.72)(@smithy/hash-node@4.4.14)(@smithy/signature-v4@5.6.10)(ws@8.21.1)(zod@4.6.6)
       typebox:
         specifier: 1.3.6
         version: 1.3.6
@@ -1289,8 +1289,8 @@ importers:
         specifier: 2.9.0
         version: 2.9.0
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/memory-core':
         specifier: workspace:*
@@ -1385,8 +1385,8 @@ importers:
         specifier: 1.3.6
         version: 1.3.6
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@microsoft/teams.common':
         specifier: 2.0.14
@@ -1407,8 +1407,8 @@ importers:
         specifier: 0.7.0
         version: 0.7.0
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1417,8 +1417,8 @@ importers:
   extensions/nextcloud-talk:
     dependencies:
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1433,8 +1433,8 @@ importers:
         specifier: 2.24.1
         version: 2.24.1(typescript@7.0.2)
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1515,8 +1515,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1546,8 +1546,8 @@ importers:
         specifier: 7.3.1
         version: 7.3.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1593,8 +1593,8 @@ importers:
         specifier: 1.3.6
         version: 1.3.6
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1610,7 +1610,7 @@ importers:
         version: 1.37.4(vitest@4.1.10)
       '@modelcontextprotocol/sdk':
         specifier: 1.30.0
-        version: 1.30.0(supports-color@10.2.2)(zod@4.4.3)
+        version: 1.30.0(supports-color@10.2.2)(zod@4.6.6)
       '@openclaw/crabline':
         specifier: 0.1.11
         version: 0.1.11
@@ -1636,8 +1636,8 @@ importers:
         specifier: 2.9.0
         version: 2.9.0
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/discord':
         specifier: workspace:*
@@ -1688,8 +1688,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1710,8 +1710,8 @@ importers:
   extensions/raft:
     dependencies:
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1735,8 +1735,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1772,8 +1772,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1809,8 +1809,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1822,8 +1822,8 @@ importers:
   extensions/sms:
     dependencies:
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1838,8 +1838,8 @@ importers:
   extensions/synology-chat:
     dependencies:
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1892,8 +1892,8 @@ importers:
         specifier: 8.9.0
         version: 8.9.0
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1920,8 +1920,8 @@ importers:
         specifier: 3.0.0
         version: 3.0.0
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -1967,8 +1967,8 @@ importers:
         specifier: 8.1.4
         version: 8.1.4(@twurple/auth@8.1.4)
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -2013,8 +2013,8 @@ importers:
         specifier: 8.21.1
         version: 8.21.1
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -2057,8 +2057,8 @@ importers:
   extensions/webhooks:
     dependencies:
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -2127,8 +2127,8 @@ importers:
   extensions/zalo:
     dependencies:
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -2146,8 +2146,8 @@ importers:
         specifier: 2.1.2
         version: 2.1.2
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@openclaw/plugin-sdk':
         specifier: workspace:*
@@ -2194,10 +2194,10 @@ importers:
     dependencies:
       '@anthropic-ai/sdk':
         specifier: 0.115.0
-        version: 0.115.0(zod@4.4.3)
+        version: 0.115.0(zod@4.6.6)
       '@google/genai':
         specifier: 2.13.0
-        version: 2.13.0(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))(supports-color@10.2.2)
+        version: 2.13.0(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))(supports-color@10.2.2)
       '@mistralai/mistralai':
         specifier: 2.5.0
         version: 2.5.0(@opentelemetry/api@1.9.1)
@@ -2206,7 +2206,7 @@ importers:
         version: link:../normalization-core
       openai:
         specifier: 6.49.0
-        version: 6.49.0(@aws-sdk/credential-provider-node@3.972.72)(@smithy/hash-node@4.4.14)(@smithy/signature-v4@5.6.10)(ws@8.21.1)(zod@4.4.3)
+        version: 6.49.0(@aws-sdk/credential-provider-node@3.972.72)(@smithy/hash-node@4.4.14)(@smithy/signature-v4@5.6.10)(ws@8.21.1)(zod@4.6.6)
       partial-json:
         specifier: 0.1.7
         version: 0.1.7
@@ -2301,8 +2301,8 @@ importers:
         specifier: workspace:*
         version: link:../normalization-core
       zod:
-        specifier: 4.4.3
-        version: 4.4.3
+        specifier: 4.6.6
+        version: 4.6.6
 
   packages/net-policy:
     dependencies:
@@ -2397,10 +2397,10 @@ importers:
         version: 1.0.3
       '@modelcontextprotocol/ext-apps':
         specifier: 1.7.5
-        version: 1.7.5(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.4.3)
+        version: 1.7.5(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.6.6)
       '@modelcontextprotocol/sdk':
         specifier: 1.30.0
-        version: 1.30.0(supports-color@10.2.2)(zod@4.4.3)
+        version: 1.30.0(supports-color@10.2.2)(zod@4.6.6)
       '@noble/ed25519':
         specifier: 3.1.0
         version: 3.1.0
@@ -4289,6 +4289,7 @@ packages:
   '@opentelemetry/propagator-jaeger@2.10.0':
     resolution: {integrity: sha512-yw/IX8DL470dSMZJoE82ScfYGp7JWZ/G8kFJo35ZILUVTB2jFPTOaioN+8s09pH0RHsWNhweVZb+ZnjJJpCChg==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Package no longer supported. See https://github.com/open-telemetry/opentelemetry-js/pull/7077
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
@@ -4319,12 +4320,14 @@ packages:
   '@opentelemetry/sdk-trace-base@2.10.0':
     resolution: {integrity: sha512-GuYQQT7QD2EeO8lcZLRQzcbOyhqAzL+6WWTKTU9mSUBYBazkEDl+VrQcXQhbB08OWM9anD1aHleVadzulpOaUQ==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.3.0 <1.10.0'
 
   '@opentelemetry/sdk-trace-node@2.10.0':
     resolution: {integrity: sha512-GZK/G6oZyBLGlH1pUgeDch7D91KoHd2uotUGIkWCPi9GI5T9X0p4L7nNAMDR1BQjkRYoDqo+ddfVx9t5Uhys+Q==}
     engines: {node: ^18.19.0 || >=20.6.0}
+    deprecated: Use @opentelemetry/sdk-trace package
     peerDependencies:
       '@opentelemetry/api': '>=1.0.0 <1.10.0'
 
@@ -5081,6 +5084,7 @@ packages:
   '@smithy/core@3.30.0':
     resolution: {integrity: sha512-dl2yRglDxfzH9uJ4fSo4zTaAHa0zH7+V7BZMRWy8hEYIKT1BiqMUK/CN6T3ADQ3kbA5N1tmUulroJ2UtONS7Kw==}
     engines: {node: '>=18.0.0'}
+    deprecated: Deprecated due to a bug in custom logger data redaction. See https://github.com/aws/aws-sdk-js-v3/issues/8393.
 
   '@smithy/credential-provider-imds@4.4.14':
     resolution: {integrity: sha512-QgbuahIb2qxQeZQvNK0sw3aF3JH5zwH8j2lLp5DUasVXexGGMWULAR+7z0omPXFolCP/m5wN9M5lm9EGdSviTQ==}
@@ -9490,8 +9494,8 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
@@ -9516,27 +9520,27 @@ snapshots:
       zod: 3.25.76
       zod-to-json-schema: 3.25.2(zod@3.25.76)
 
-  '@agentclientprotocol/claude-agent-acp@0.62.0(@anthropic-ai/sdk@0.115.0(zod@4.4.3))(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))':
+  '@agentclientprotocol/claude-agent-acp@0.62.0(@anthropic-ai/sdk@0.115.0(zod@4.6.6))(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))':
     dependencies:
-      '@agentclientprotocol/sdk': 1.3.0(zod@4.4.3)
-      '@anthropic-ai/claude-agent-sdk': 0.3.219(@anthropic-ai/sdk@0.115.0(zod@4.4.3))(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))(zod@4.4.3)
-      zod: 4.4.3
+      '@agentclientprotocol/sdk': 1.3.0(zod@4.6.6)
+      '@anthropic-ai/claude-agent-sdk': 0.3.219(@anthropic-ai/sdk@0.115.0(zod@4.6.6))(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))(zod@4.6.6)
+      zod: 4.6.6
     transitivePeerDependencies:
       - '@anthropic-ai/sdk'
       - '@modelcontextprotocol/sdk'
 
   '@agentclientprotocol/codex-acp@1.1.7':
     dependencies:
-      '@agentclientprotocol/sdk': 1.3.0(zod@4.4.3)
+      '@agentclientprotocol/sdk': 1.3.0(zod@4.6.6)
       '@openai/codex': 0.147.0
       diff: 9.0.0
       open: 11.0.0
       vscode-jsonrpc: 9.0.1
-      zod: 4.4.3
+      zod: 4.6.6
 
-  '@agentclientprotocol/sdk@1.3.0(zod@4.4.3)':
+  '@agentclientprotocol/sdk@1.3.0(zod@4.6.6)':
     dependencies:
-      zod: 4.4.3
+      zod: 4.6.6
 
   '@anthropic-ai/claude-agent-sdk-darwin-arm64@0.3.219':
     optional: true
@@ -9562,11 +9566,11 @@ snapshots:
   '@anthropic-ai/claude-agent-sdk-win32-x64@0.3.219':
     optional: true
 
-  '@anthropic-ai/claude-agent-sdk@0.3.219(@anthropic-ai/sdk@0.115.0(zod@4.4.3))(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))(zod@4.4.3)':
+  '@anthropic-ai/claude-agent-sdk@0.3.219(@anthropic-ai/sdk@0.115.0(zod@4.6.6))(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))(zod@4.6.6)':
     dependencies:
-      '@anthropic-ai/sdk': 0.115.0(zod@4.4.3)
-      '@modelcontextprotocol/sdk': 1.30.0(supports-color@10.2.2)(zod@4.4.3)
-      zod: 4.4.3
+      '@anthropic-ai/sdk': 0.115.0(zod@4.6.6)
+      '@modelcontextprotocol/sdk': 1.30.0(supports-color@10.2.2)(zod@4.6.6)
+      zod: 4.6.6
     optionalDependencies:
       '@anthropic-ai/claude-agent-sdk-darwin-arm64': 0.3.219
       '@anthropic-ai/claude-agent-sdk-darwin-x64': 0.3.219
@@ -9577,16 +9581,16 @@ snapshots:
       '@anthropic-ai/claude-agent-sdk-win32-arm64': 0.3.219
       '@anthropic-ai/claude-agent-sdk-win32-x64': 0.3.219
 
-  '@anthropic-ai/sdk@0.115.0(zod@4.4.3)':
+  '@anthropic-ai/sdk@0.115.0(zod@4.6.6)':
     dependencies:
       json-schema-to-ts: 3.1.1
       standardwebhooks: 1.0.0
     optionalDependencies:
-      zod: 4.4.3
+      zod: 4.6.6
 
-  '@anthropic-ai/vertex-sdk@0.19.0(supports-color@10.2.2)(zod@4.4.3)':
+  '@anthropic-ai/vertex-sdk@0.19.0(supports-color@10.2.2)(zod@4.6.6)':
     dependencies:
-      '@anthropic-ai/sdk': 0.115.0(zod@4.4.3)
+      '@anthropic-ai/sdk': 0.115.0(zod@4.6.6)
       google-auth-library: 10.9.1(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
@@ -10632,7 +10636,7 @@ snapshots:
       '@github/copilot': 1.0.75
       koffi: 3.1.2
       vscode-jsonrpc: 8.2.1
-      zod: 4.4.3
+      zod: 4.6.6
 
   '@github/copilot-win32-arm64@1.0.75':
     optional: true
@@ -10653,14 +10657,14 @@ snapshots:
       '@github/copilot-win32-arm64': 1.0.75
       '@github/copilot-win32-x64': 1.0.75
 
-  '@google/genai@2.13.0(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))(supports-color@10.2.2)':
+  '@google/genai@2.13.0(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))(supports-color@10.2.2)':
     dependencies:
       google-auth-library: 10.9.1(supports-color@10.2.2)
       p-retry: 4.6.2
       protobufjs: 8.7.1
       ws: 8.21.1
     optionalDependencies:
-      '@modelcontextprotocol/sdk': 1.30.0(supports-color@10.2.2)(zod@4.4.3)
+      '@modelcontextprotocol/sdk': 1.30.0(supports-color@10.2.2)(zod@4.6.6)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -11236,24 +11240,24 @@ snapshots:
     dependencies:
       '@opentelemetry/semantic-conventions': 1.43.0
       ws: 8.21.1
-      zod: 4.4.3
-      zod-to-json-schema: 3.25.2(zod@4.4.3)
+      zod: 4.6.6
+      zod-to-json-schema: 3.25.2(zod@4.6.6)
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@modelcontextprotocol/ext-apps@1.7.5(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.4.3)':
+  '@modelcontextprotocol/ext-apps@1.7.5(@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(zod@4.6.6)':
     dependencies:
-      '@modelcontextprotocol/sdk': 1.30.0(supports-color@10.2.2)(zod@4.4.3)
+      '@modelcontextprotocol/sdk': 1.30.0(supports-color@10.2.2)(zod@4.6.6)
       '@standard-schema/spec': 1.1.0
-      zod: 4.4.3
+      zod: 4.6.6
     optionalDependencies:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
 
-  '@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.4.3)':
+  '@modelcontextprotocol/sdk@1.30.0(supports-color@10.2.2)(zod@4.6.6)':
     dependencies:
       '@hono/node-server': 2.0.12(hono@4.12.32)
       ajv: 8.20.0
@@ -11270,8 +11274,8 @@ snapshots:
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
       raw-body: 3.0.2
-      zod: 4.4.3
-      zod-to-json-schema: 3.25.2(zod@4.4.3)
+      zod: 4.6.6
+      zod-to-json-schema: 3.25.2(zod@4.6.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -11428,7 +11432,7 @@ snapshots:
       re2js: 2.8.6
       ws: 8.21.1
       yaml: 2.9.0
-      zod: 4.4.3
+      zod: 4.6.6
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -12964,11 +12968,11 @@ snapshots:
 
   acpx@0.13.0:
     dependencies:
-      '@agentclientprotocol/sdk': 1.3.0(zod@4.4.3)
+      '@agentclientprotocol/sdk': 1.3.0(zod@4.6.6)
       commander: 15.0.0
       skillflag: 0.2.1
       tsx: 4.23.1
-      zod: 4.4.3
+      zod: 4.6.6
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
@@ -15532,13 +15536,13 @@ snapshots:
       - encoding
     optional: true
 
-  openai@6.49.0(@aws-sdk/credential-provider-node@3.972.72)(@smithy/hash-node@4.4.14)(@smithy/signature-v4@5.6.10)(ws@8.21.1)(zod@4.4.3):
+  openai@6.49.0(@aws-sdk/credential-provider-node@3.972.72)(@smithy/hash-node@4.4.14)(@smithy/signature-v4@5.6.10)(ws@8.21.1)(zod@4.6.6):
     optionalDependencies:
       '@aws-sdk/credential-provider-node': 3.972.72
       '@smithy/hash-node': 4.4.14
       '@smithy/signature-v4': 5.6.10
       ws: 8.21.1
-      zod: 4.4.3
+      zod: 4.6.6
 
   opus-decoder@0.7.11:
     dependencies:
@@ -17191,12 +17195,12 @@ snapshots:
     dependencies:
       zod: 3.25.76
 
-  zod-to-json-schema@3.25.2(zod@4.4.3):
+  zod-to-json-schema@3.25.2(zod@4.6.6):
     dependencies:
-      zod: 4.4.3
+      zod: 4.6.6
 
   zod@3.25.76: {}
 
-  zod@4.4.3: {}
+  zod@4.6.6: {}
 
   zwitch@2.0.4: {}
